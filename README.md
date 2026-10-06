@@ -4,15 +4,9 @@
 
 O arquivo `src/pedido.py` contém uma função responsável por calcular o valor final de um pedido. A implementação atual possui defeitos.
 
-Sua tarefa é corrigir o código existente para que ele atenda a todos os requisitos abaixo e seja aprovado pelos testes automatizados.
+Sua tarefa é **corrigir o código existente** para que ele atenda a todos os requisitos abaixo e seja aprovado pelos testes automatizados.
 
-Tempo máximo: 25 minutos.
-
-## Função a ser corrigida
-
-```python
-calcular_total_pedido(subtotal, distancia_km, cliente_vip=False)
-```
+**Tempo máximo:** 25 minutos.
 
 A função deve retornar um `float` com o valor final do pedido.
 
@@ -65,6 +59,13 @@ calcular_total_pedido(-10.00, 5, False)
 # Deve lançar ValueError
 ```
 
+## Restrições
+
+- Não altere os testes automatizados.
+- Não altere a assinatura da função.
+- Não utilize bibliotecas externas para implementar a solução.
+- Execute os testes a partir da raiz do projeto.
+
 ## Como executar
 
 Instale as dependências:
@@ -78,5 +79,3 @@ Execute os testes:
 ```bash
 pytest -q
 ```
-
-A implementação inicial contém defeitos, portanto é esperado que os testes falhem antes das correções.
